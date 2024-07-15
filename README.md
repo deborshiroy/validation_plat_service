@@ -1,0 +1,1 @@
+# validation_plat_service
