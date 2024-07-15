@@ -4,3 +4,7 @@ rouge-score
 bert-score
 transformers
 nltk
+starlette
+uvicorn
+pydantic
+fastapi

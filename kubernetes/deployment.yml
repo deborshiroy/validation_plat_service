@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx0-deployment
+  labels:
+    app: responsive-ai-plat
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: responsive-ai-plat
+  template:
+    metadata:
+      labels:
+        app: responsive-ai-plat
+    spec:
+      containers:
+      - name: nginx
+        image: responsiveai.azurecr.io/resp_ai_v1:b0fc40633a01763342003ecd459eade9bd457b3d
+        ports:
+        - containerPort: 8000
+        env:
+        - name: ACCOUNT_NAME
+          valueFrom:
+            secretKeyRef:
+              name: azure-secrets
+              key: ACCOUNT_NAME
+        - name: ACCOUNT_KEY
+          valueFrom:
+            secretKeyRef:
+              name: azure-secrets
+              key: ACCOUNT_KEY
+        - name: CONTAINER_NAME
+          valueFrom:
+            secretKeyRef:
+              name: azure-secrets
+              key: CONTAINER_NAME
+        - name: BLOB_PATH
+          valueFrom:
+            secretKeyRef:
+              name: azure-secrets
+              key: BLOB_PATH
+        - name: GOOGLE_GEMENI_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: azure-secrets
+              key: GOOGLE_GEMENI_API_KEY
+
+
+

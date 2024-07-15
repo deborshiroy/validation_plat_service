@@ -9,16 +9,8 @@ from nltk.util import ngrams
 class Evaluator:
     def __init__(self):
         try:
-            self.gpt2_model, self.gpt2_tokenizer = self.load_gpt2_model()
-            self.bias_pipeline = pipeline("zero-shot-classification", model="Hate-speech-CNERG/dehatebert-mono-english")
-        except Exception as e:
-            print(traceback.format_exc())
-            
-    def load_gpt2_model(self):
-        try:
-            model = GPT2LMHeadModel.from_pretrained('gpt2')
-            tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
-            return model, tokenizer
+            self.gpt2_model = GPT2LMHeadModel.from_pretrained('gpt2')
+            self.gpt2_tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
         except Exception as e:
             print(traceback.format_exc())
 
