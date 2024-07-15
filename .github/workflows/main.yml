@@ -1,0 +1,25 @@
+on:
+  workflow_dispatch
+
+name: Linux_Docker_Container_Workflow
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Log in to ACR
+        uses: azure/docker-login@v1
+        with:
+          login-server: ${{ secrets.REGISTRY_LOGIN_SERVER }} 
+          username: ${{ secrets.REGISTRY_USERNAME }}
+          password: ${{ secrets.REGISTRY_PASSWORD }}
+
+      - name: Build Docker image
+        run: docker build -t ${{ secrets.REGISTRY_LOGIN_SERVER }}/orch_ai_v1:${{ github.sha }} .
+
+      - name: Push Docker image to ACR
+        run: docker push ${{ secrets.REGISTRY_LOGIN_SERVER }}/orch_ai_v1:${{ github.sha }}
