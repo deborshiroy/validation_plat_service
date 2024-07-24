@@ -28,7 +28,9 @@ def benchmark_validation(payload: model_validation_input_shcema_benchmark):
         # Ensure the temporary save path exists
         os.makedirs(TMP_SAVE_UPLOAD_FILE_PATH, exist_ok=True)
 
+
         results = benchmark_eval.get_lm_eval_command(payload['model_args'])
+        
 
         for item in os.listdir(TMP_SAVE_UPLOAD_FILE_PATH):
             item_path = os.path.join(TMP_SAVE_UPLOAD_FILE_PATH, item)
@@ -36,23 +38,17 @@ def benchmark_validation(payload: model_validation_input_shcema_benchmark):
                 directory_path= item_path
 
 
-        for filename in os.listdir(directory_path):
-            if filename.endswith('.json'):
-                #json_file_path = os.path.join(directory_path, filename)
-                source_path = os.path.join(directory_path, filename)
-                destination_path = os.path.join(TMP_SAVE_UPLOAD_FILE_PATH, filename)
-                shutil.move(source_path, destination_path)
-        print(directory_path)
-        print(filename)
-
-        shutil.rmtree(directory_path)
-
+        for item in os.listdir(directory_path):
+            if item.endswith('.json'):
+                destination_path = os.path.join(TMP_SAVE_UPLOAD_FILE_PATH,"openai-community__gpt2-large",item)
+                
+        
         benchmark_eval.clean_memory()
        
         
-        sas_url = az.upload_file(local_file_path=destination_path, file_name=f"{payload['model_args']}_result.json")
+        sas_url = az.upload_file(local_file_path=destination_path, file_name="result.json")
+        print()
         shutil.rmtree(TMP_SAVE_UPLOAD_FILE_PATH)
-        
         az.azure_close_conn()
         return {
             "message": "successful",

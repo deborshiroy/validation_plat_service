@@ -23,37 +23,37 @@ spec:
             - name: ACCOUNT_NAME
               valueFrom:
                 secretKeyRef:
-                  name: orch-azure-secrets
+                  name: val-azure-secrets
                   key: ACCOUNT_NAME
             - name: ACCOUNT_KEY
               valueFrom:
                 secretKeyRef:
-                  name: orch-azure-secrets
+                  name: val-azure-secrets
                   key: ACCOUNT_KEY
             - name: CONTAINER_NAME
               valueFrom:
                 secretKeyRef:
-                  name: orch-azure-secrets
+                  name: val-azure-secrets
                   key: CONTAINER_NAME
             - name: BENCHMARK_QNA
               valueFrom:
                 secretKeyRef:
-                  name: orch-azure-secrets
+                  name: val-azure-secrets
                   key: BENCHMARK_QNA
             - name: BENCHMARK_TG
               valueFrom:
                 secretKeyRef:
-                  name: orch-azure-secrets
+                  name: val-azure-secrets
                   key: BENCHMARK_TG
             - name: VALIDATION
               valueFrom:
                 secretKeyRef:
-                  name: orch-azure-secrets
+                  name: val-azure-secrets
                   key: VALIDATION
             - name: HUGGINGFACE_TOKEN
               valueFrom:
                 secretKeyRef:
-                  name: orch-azure-secrets
+                  name: val-azure-secrets
                   key: HUGGINGFACE_TOKEN
             
             
