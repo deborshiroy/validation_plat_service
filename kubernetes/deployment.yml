@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: responsiveai.azurecr.io/model_val_ai_v1:98c0e3e084add85726a0bd0a21dbff9cdbdff0fd
+        image: responsiveai.azurecr.io/model_val_ai_v1:2e857f39d4a39a25717b467dbdcf672cabac8aa1
         ports:
         - containerPort: 8000
         env:
