@@ -5,10 +5,10 @@ from routes import benchmarks_qa_svc
 import uvicorn
 
 import os
-import dotenv
+# import dotenv
 
 # Load environment variables from .env file
-dotenv.load_dotenv()
+# dotenv.load_dotenv()
 
 # Log in to Hugging Face Hub
 from huggingface_hub import login
