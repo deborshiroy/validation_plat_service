@@ -5,14 +5,19 @@ from bert_score import score
 from transformers import GPT2LMHeadModel, GPT2Tokenizer, pipeline
 import nltk
 from nltk.util import ngrams
+import traceback
+import os
+import json
 
 class Evaluator:
     def __init__(self):
         try:
             self.gpt2_model = GPT2LMHeadModel.from_pretrained('gpt2')
             self.gpt2_tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
+            self.path_ ='../output_files/metrics_data_output/'
         except Exception as e:
             print(traceback.format_exc())
+
 
     def evaluate_bleu_rouge(self, candidates, references):
         try:
@@ -75,5 +80,51 @@ class Evaluator:
                 "Perplexity": perplexity
 
             }
+        except Exception as e:
+            print(traceback.format_exc())
+
+    def evaluate_average(self, list_of_metrics):
+        try:
+            
+            s_Bl = s_R1= s_R2 =s_RL= s_B_P= s_B_R=s_B_F1 = s_P= 0
+
+            len_=len(list_of_metrics)
+            for metrics in range(0, len_):
+                s_Bl=s_Bl+ list_of_metrics[metrics]['BLEU']
+                s_R1=s_R1+ list_of_metrics[metrics]['ROUGE-1']
+                s_R2=s_R2+ list_of_metrics[metrics]['ROUGE-2']
+                s_RL=s_RL+ list_of_metrics[metrics]['ROUGE-L']
+                s_B_P=s_B_P+ list_of_metrics[metrics]['BERT P']
+                s_B_R=s_B_R+ list_of_metrics[metrics]['BERT R']
+                s_B_F1=s_B_F1+ list_of_metrics[metrics]['BERT F1']
+                s_P=s_P+ list_of_metrics[metrics]['Perplexity']
+            
+
+
+            a_Bl = float("{:.4f}".format(s_Bl/len_))
+            a_R1 = float("{:.4f}".format(s_R1/len_))
+            a_R2 = float("{:.4f}".format(s_R2/len_))
+            a_RL = float("{:.4f}".format(s_RL/len_))
+            a_BP = float("{:.4f}".format(s_B_P/len_))
+            a_BR = float("{:.4f}".format(s_B_R/len_))
+            a_BF1 = float("{:.4f}".format(s_B_F1/len_))
+            a_P = float("{:.4f}".format(s_P/len_))
+
+            Averaged_metrics= {
+                'Average result': {
+            'Blue':a_Bl,
+            'ROUGE-1':a_R1,
+            'ROUGE-2': a_R2,
+            'ROUGE-L': a_RL,
+            'BERT P' : a_BP,
+            'BERT R' : a_BR,
+            'BERT F1': a_BF1,
+            'Perplexity': a_P
+            }
+            }
+            print(Averaged_metrics)
+
+            return Averaged_metrics
+
         except Exception as e:
             print(traceback.format_exc())
