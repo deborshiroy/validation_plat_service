@@ -18,6 +18,18 @@ jobs:
           username: ${{ secrets.REGISTRY_USERNAME }}
           password: ${{ secrets.REGISTRY_PASSWORD }}
 
+      - name: Set up environment variables
+        env:
+          ACCOUNT_KEY: ${{ secrets.ACCOUNT_KEY }}
+          ACCOUNT_NAME: ${{ secrets.ACCOUNT_NAME }}
+          BENCHMARK_QNA: ${{ secrets.BENCHMARK_QNA }}
+          BENCHMARK_TG: ${{ secrets.BENCHMARK_TG }}
+          VALIDATION: ${{ secrets.VALIDATION }}
+          CONTAINER_NAME: ${{ secrets.CONTAINER_NAME }}
+          HUGGINGFACE_TOKEN: ${{ secrets.HUGGINGFACE_TOKEN }}
+        run: |
+          echo "Setting environment variables..."
+
       - name: Build Docker image
         run: docker build -t ${{ secrets.REGISTRY_LOGIN_SERVER }}/model_val_ai_v1:${{ github.sha }} .
 
