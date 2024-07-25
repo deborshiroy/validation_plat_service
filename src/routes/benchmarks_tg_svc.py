@@ -47,9 +47,9 @@ def benchmark_validation(payload: model_validation_input_shcema_benchmark):
        
         
         sas_url = az.upload_file(local_file_path=destination_path, file_name="result.json")
-        print()
-        shutil.rmtree(TMP_SAVE_UPLOAD_FILE_PATH)
+        
         az.azure_close_conn()
+        shutil.rmtree(TMP_SAVE_UPLOAD_FILE_PATH)
         return {
             "message": "successful",
             "output_file": sas_url

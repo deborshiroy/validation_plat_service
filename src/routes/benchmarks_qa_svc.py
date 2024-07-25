@@ -59,10 +59,11 @@ def benchmark_validation_qa(payload: model_validation_input_shcema_benchmark):
         sas_url = az.upload_file(local_file_path=destination_path, file_name="result.json")
         
         # Clean up temporary files
-        # shutil.rmtree(TMP_SAVE_UPLOAD_FILE_PATH)
+
         
         # Close Azure connection
         az.azure_close_conn()
+        shutil.rmtree(TMP_SAVE_UPLOAD_FILE_PATH)
         
         return {
             "message": "successful",
