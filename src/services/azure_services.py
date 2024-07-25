@@ -3,6 +3,8 @@ from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient, g
 
 from datetime import datetime, timedelta
 
+from utils.function import generate_random_hex
+
 import traceback
 import sys
 import os 
@@ -101,6 +103,8 @@ class azure_ops:
         
     def upload_file(self, local_file_path, file_name):
         try:
+            rand_num = generate_random_hex(length=16)
+            file_name = f'{file_name.split(".")[0]}_{rand_num}.{file_name.split(".")[-1]}'
             az_file_name = self.check_blob_and_rename(file_name)
             with open(local_file_path, 'rb') as data:
                 blob_client = self.container_client.upload_blob(name=self.blob_path+az_file_name, data=data)
