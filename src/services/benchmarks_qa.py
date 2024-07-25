@@ -1,5 +1,4 @@
 from genericpath import exists
-#from huggingface_hub import login
 from utils.constants import *
 import lm_eval
 import subprocess
@@ -9,22 +8,32 @@ import os
 import sys 
 import gc
 
-#import dotenv
-#dotenv.load_dotenv("../.env")
 
-class LMEvalRunner:
+class LMEvalRunnerQA:
     def __init__(self):
-        # print(os.environ.get("HUGGINGFACE_TOKEN"))
-        # login(token=os.environ.get("HUGGINGFACE_TOKEN"))
-        # self.path = '../output_files/temp_data_output'
+        """
+        Initializes an instance of LMEvalRunner.
+
+        Attributes:
+            path (str): Path for temporary file storage.
+        """
         self.path = TMP_SAVE_UPLOAD_FILE_PATH
+       
+        
 
-    def get_lm_eval_command(self, model_args):
+    def get_lm_eval_command_qa(self, model_args):
+        """
+        Executes the lm_eval command for evaluating a pre-trained language model.
+
+        Args:
+            model_args (str): Arguments for the pre-trained model.
+
+        Returns:
+            CompletedProcess: Result of the evaluation process.
+        """
         try:
-            #Just like you can provide a local path to transformers.AutoModel, 
-            #you can also provide a local path to lm_eval via --model_args pretrained=/path/to/model
-
-            model_args="pretrained="+model_args+",trust_remote_code=True"
+            
+            model_args="pretrained="+model_args +",trust_remote_code=True"
             
             print("Process started")
             if torch.cuda.is_available():
@@ -39,9 +48,9 @@ class LMEvalRunner:
                 "lm_eval",
                 "--model", "hf",
                 "--model_args", model_args,
-                "--tasks", "hellaswag,squadv2",
+                "--tasks", "squad_completion",     #hellaswag, basque-glue
                 "--device", self.device,
-                "--batch_size", "6", 
+                "--batch_size", "8", 
                 "--limit", "3",
                 "--output_path", self.path,
                 "--log_samples"
@@ -63,32 +72,13 @@ class LMEvalRunner:
 
 
     def clean_memory(self):
+        """
+        Clears GPU memory and performs garbage collection.
+        """
         torch.cuda.empty_cache()
         gc.collect()
 
 
-
-
-
-    # def run_lm_eval(self,model_args):
-    #     try:
-    #         result= subprocess.run(self._get_lm_eval_command(model_args),check=True)
-    #         print("lm_eval completed successfully.")
-    #         print(result.stdout)
-        
-    #         #return result 
-
-            
-    #         #for path in os.scandir(self.path):
-    #         #    if path.is_file():
-    #         #        print(path.name)
-
-    #     except subprocess.CalledProcessError as e:
-    #        print(f"Error running lm_eval: {e}")
-
-# Example usage
-#model_args = "pretrained=microsoft/phi-2,trust_remote_code=True" or pretrained=openai-community/gpt2-large
-# },trust_remote_code=True
 
 
 
