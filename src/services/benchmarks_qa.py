@@ -8,6 +8,8 @@ import os
 import sys 
 import gc
 
+from utils.function import *
+
 
 class LMEvalRunnerQA:
     def __init__(self):
@@ -32,41 +34,33 @@ class LMEvalRunnerQA:
             CompletedProcess: Result of the evaluation process.
         """
         try:
-            
-            model_args="pretrained="+model_args +",trust_remote_code=True"
+            rand_num = generate_random_hex()
+            self.file_name = f"result_{rand_num}"
+            model_args="pretrained="+model_args+",trust_remote_code=True"
+            # model_args="pretrained="+model_args +",trust_remote_code=True"
             
             print("Process started")
             if torch.cuda.is_available():
                 self.device = "cuda:0" 
             else:
                 self.device = "cpu"
-            
-            if os.path.exists(self.path):
-                print("Output path exist")
 
-                res= [
-                "lm_eval",
-                "--model", "hf",
-                "--model_args", model_args,
-                "--tasks", "squad_completion",     #hellaswag, basque-glue
-                "--device", self.device,
-                "--batch_size", "8", 
-                "--limit", "3",
-                "--output_path", self.path,
-                "--log_samples"
-                ] 
-                
 
-            else:
-                print("Exception occurred while creating the folder")
-                sys.exit(1)
-
-            
+            res= [
+            "lm_eval",
+            "--model", "hf",
+            "--model_args", model_args,
+            "--tasks", "squad_completion",     #hellaswag, basque-glue
+            "--device", self.device,
+            "--batch_size", "8", 
+            "--limit", "3",
+            "--output_path", self.file_name,
+            "--log_samples"
+            ] 
+           
             result= subprocess.run(res, check=True)
             print("Evaluation completed successfully.")
-            return result
-            
-        
+            return result                
         except Exception as e:
             print(traceback.format_exc(),str(e))
 

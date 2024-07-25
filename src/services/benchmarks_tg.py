@@ -8,6 +8,7 @@ import traceback
 import os
 import sys 
 import gc
+from utils.function import *
 
 #import dotenv
 #dotenv.load_dotenv("../.env")
@@ -23,7 +24,8 @@ class LMEvalRunner:
         try:
             #Just like you can provide a local path to transformers.AutoModel, 
             #you can also provide a local path to lm_eval via --model_args pretrained=/path/to/model
-
+            rand_num = generate_random_hex()
+            self.file_name = f"result_{rand_num}"
             model_args="pretrained="+model_args+",trust_remote_code=True"
             
             print("Process started")
@@ -32,31 +34,24 @@ class LMEvalRunner:
             else:
                 self.device = "cpu"
             
-            if os.path.exists(self.path):
-                print("Output path exist")
+            # if os.path.exists(self.file_name):
+            #     print("Output path exist")
 
-                res= [
-                "lm_eval",
-                "--model", "hf",
-                "--model_args", model_args,
-                "--tasks", "truthfulqa,wikitext",
-                "--device", self.device,
-                "--batch_size", "6", 
-                "--limit", "3",
-                "--output_path", self.path,
-                "--log_samples"
-                ] 
-                
-
-            else:
-                print("Exception occurred while creating the folder")
-                sys.exit(1)
-
-            
+            res= [
+            "lm_eval",
+            "--model", "hf",
+            "--model_args", model_args,
+            "--tasks", "truthfulqa,wikitext",
+            "--device", self.device,
+            "--batch_size", "6", 
+            "--limit", "3",
+            "--output_path", self.file_name,
+            "--log_samples"
+            ]     
             result= subprocess.run(res, check=True)
             print("Evaluation completed successfully.")
             return result
-            
+                
         
         except Exception as e:
             print(traceback.format_exc(),str(e))
