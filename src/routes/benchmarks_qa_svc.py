@@ -34,36 +34,24 @@ def benchmark_validation_qa(payload: model_validation_input_shcema_benchmark):
                         blob_path=os.environ.get('BENCHMARK_QNA')
                         )
 
-        # Ensure the temporary save path exists
-        os.makedirs(TMP_SAVE_UPLOAD_FILE_PATH, exist_ok=True)
-
         # Execute lm_eval command and get results
         results = benchmark_eval_qa.get_lm_eval_command_qa(payload['model_args'])
+        file_name = benchmark_eval_qa.file_name
+        output_file_path = file_name+'/'+payload['model_args'].replace('/', '__')+'/'+[i for i in os.listdir(os.path.join(file_name, payload['model_args'].replace('/', '__'))) if i.startswith('results') and i.endswith('.json')][0]
 
-        # Extract the output file path
-        for item in os.listdir(TMP_SAVE_UPLOAD_FILE_PATH):
-            item_path = os.path.join(TMP_SAVE_UPLOAD_FILE_PATH, item)
-            if os.path.isdir(item_path):
-                directory_path= item_path
-        print(directory_path)
-
-
-        for item in os.listdir(directory_path):
-            if item.endswith('.json'):
-                destination_path = os.path.join(TMP_SAVE_UPLOAD_FILE_PATH,"openai-community__gpt2-large",item)
-                
         #clean up the GPU memory
         benchmark_eval_qa.clean_memory()
+        
        
         # Upload the result file to Azure Blob Storage
-        sas_url = az.upload_file(local_file_path=destination_path, file_name="result.json")
+        sas_url = az.upload_file(local_file_path=output_file_path, file_name="result.json")
         
         # Clean up temporary files
 
         
         # Close Azure connection
         az.azure_close_conn()
-        shutil.rmtree(TMP_SAVE_UPLOAD_FILE_PATH)
+        shutil.rmtree(file_name)
         
         return {
             "message": "successful",
