@@ -5,7 +5,7 @@ metadata:
   labels:
     app: model-validation-ai-plat
 spec:
-  replicas: 1
+  replicas: 
   selector:
     matchLabels:
       app: model-validation-ai-plat
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: responsiveai.azurecr.io/model_val_ai_v1:6b47e86aea82d11f9a492a1e0a9838bb452af408
+        image: responsiveai.azurecr.io/model_val_ai_v1:c4517e58fde104fdc2fd6a9f7b7df05138a9e33a
         ports:
         - containerPort: 8000
         env:
