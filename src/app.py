@@ -1,10 +1,10 @@
-# import google.generativeai as genai
+
 import uvicorn
 import dotenv
 import os
+# import google.generativeai as genai
  
 from fastapi import FastAPI
-from routes import model_comparision
 from routes import validate
 from routes import benchmarks_tg_svc
 from routes import benchmarks_qa_svc
@@ -24,7 +24,6 @@ login(token=os.environ.get("HUGGINGFACE_TOKEN"))
 app = FastAPI()
  
 # # Include routers
-app.include_router(model_comparision.router)
 app.include_router(validate.router)
 app.include_router(benchmarks_tg_svc.router)
 app.include_router(benchmarks_qa_svc.router)
