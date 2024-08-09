@@ -1,5 +1,5 @@
 import random
-import tiktoken
+# import tiktoken
 import logging
 
 
@@ -9,17 +9,17 @@ def generate_random_hex(length=8):
     return hex_number
     
 
-def num_tokens_from_string(string: str, encoding_name: str) -> int:
-    encoding = tiktoken.get_encoding(encoding_name)
-    num_tokens = len(encoding.encode(string))
-    print("Number_of_Tokens",num_tokens)
-    return num_tokens
+# def num_tokens_from_string(string: str, encoding_name: str) -> int:
+#     encoding = tiktoken.get_encoding(encoding_name)
+#     num_tokens = len(encoding.encode(string))
+#     print("Number_of_Tokens",num_tokens)
+#     return num_tokens
 
 
-def file_to_str(file):
-    with open(file, "r") as file:
-        data = file.read()
-    return data
+# def file_to_str(file):
+#     with open(file, "r") as file:
+#         data = file.read()
+#     return data
 
 
 def Initialize_logger():
