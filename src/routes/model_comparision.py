@@ -5,7 +5,7 @@ import io
 from fastapi import FastAPI, UploadFile ,File, HTTPException, status, APIRouter, UploadFile, Response, Form
 from fastapi.responses import FileResponse
 from pandas import json_normalize
-from IPython.display import display
+
 
 from utils.function import *
 from utils.data_models import *
