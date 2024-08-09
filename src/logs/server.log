@@ -1,0 +1,625 @@
+2024-08-07 21:15:36,407 - utils.function - INFO - Initializing and loading GPT model
+2024-08-07 21:15:36,407 - utils.function - INFO - Initializing and loading GPT model
+2024-08-07 21:15:40,512 - utils.function - INFO - Initializing and loading GPT model
+2024-08-07 21:15:40,512 - utils.function - INFO - Initializing and loading GPT model
+2024-08-07 21:15:40,512 - utils.function - INFO - Initializing and loading GPT model
+2024-08-07 21:15:43,487 - utils.function - INFO - Initializing and loading GPT model
+2024-08-07 21:15:43,487 - utils.function - INFO - Initializing and loading GPT model
+2024-08-07 21:15:43,487 - utils.function - INFO - Initializing and loading GPT model
+2024-08-07 21:15:43,487 - utils.function - INFO - Initializing and loading GPT model
+2024-08-07 21:15:43,487 - utils.function - INFO - Initializing and loading GPT model
+2024-08-07 21:15:46,490 - utils.function - INFO - Initializing and loading GPT model
+2024-08-07 21:15:46,490 - utils.function - INFO - Initializing and loading GPT model
+2024-08-07 21:15:46,490 - utils.function - INFO - Initializing and loading GPT model
+2024-08-07 21:15:46,490 - utils.function - INFO - Initializing and loading GPT model
+2024-08-07 21:15:46,490 - utils.function - INFO - Initializing and loading GPT model
+2024-08-07 21:15:46,490 - utils.function - INFO - Initializing and loading GPT model
+2024-08-07 21:16:57,945 - utils.function - INFO - Azure connected sucessfully
+2024-08-07 21:16:57,945 - utils.function - INFO - Azure connected sucessfully
+2024-08-07 21:16:57,945 - utils.function - INFO - Azure connected sucessfully
+2024-08-07 21:16:57,945 - utils.function - INFO - Azure connected sucessfully
+2024-08-07 21:16:57,945 - utils.function - INFO - Azure connected sucessfully
+2024-08-07 21:16:57,945 - utils.function - INFO - Azure connected sucessfully
+2024-08-07 21:16:57,945 - utils.function - INFO - Azure connected sucessfully
+2024-08-07 21:16:57,962 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-07 21:16:57,962 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-07 21:16:57,962 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-07 21:16:57,962 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-07 21:16:57,962 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-07 21:16:57,962 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-07 21:16:57,962 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-07 21:16:57,965 - utils.function - INFO - Loading file data
+2024-08-07 21:16:57,965 - utils.function - INFO - Loading file data
+2024-08-07 21:16:57,965 - utils.function - INFO - Loading file data
+2024-08-07 21:16:57,965 - utils.function - INFO - Loading file data
+2024-08-07 21:16:57,965 - utils.function - INFO - Loading file data
+2024-08-07 21:16:57,965 - utils.function - INFO - Loading file data
+2024-08-07 21:16:57,965 - utils.function - INFO - Loading file data
+2024-08-07 21:16:58,057 - utils.function - INFO - Row 0,inserted
+2024-08-07 21:16:58,057 - utils.function - INFO - Row 0,inserted
+2024-08-07 21:16:58,057 - utils.function - INFO - Row 0,inserted
+2024-08-07 21:16:58,057 - utils.function - INFO - Row 0,inserted
+2024-08-07 21:16:58,057 - utils.function - INFO - Row 0,inserted
+2024-08-07 21:16:58,057 - utils.function - INFO - Row 0,inserted
+2024-08-07 21:16:58,057 - utils.function - INFO - Row 0,inserted
+2024-08-07 21:18:43,757 - utils.function - INFO - Row 1,inserted
+2024-08-07 21:18:43,757 - utils.function - INFO - Row 1,inserted
+2024-08-07 21:18:43,757 - utils.function - INFO - Row 1,inserted
+2024-08-07 21:18:43,757 - utils.function - INFO - Row 1,inserted
+2024-08-07 21:18:43,757 - utils.function - INFO - Row 1,inserted
+2024-08-07 21:18:43,757 - utils.function - INFO - Row 1,inserted
+2024-08-07 21:18:43,757 - utils.function - INFO - Row 1,inserted
+2024-08-07 21:19:11,387 - utils.function - INFO - Row 2,inserted
+2024-08-07 21:19:11,387 - utils.function - INFO - Row 2,inserted
+2024-08-07 21:19:11,387 - utils.function - INFO - Row 2,inserted
+2024-08-07 21:19:11,387 - utils.function - INFO - Row 2,inserted
+2024-08-07 21:19:11,387 - utils.function - INFO - Row 2,inserted
+2024-08-07 21:19:11,387 - utils.function - INFO - Row 2,inserted
+2024-08-07 21:19:11,387 - utils.function - INFO - Row 2,inserted
+2024-08-07 21:19:38,875 - utils.function - INFO - Row 3,inserted
+2024-08-07 21:19:38,875 - utils.function - INFO - Row 3,inserted
+2024-08-07 21:19:38,875 - utils.function - INFO - Row 3,inserted
+2024-08-07 21:19:38,875 - utils.function - INFO - Row 3,inserted
+2024-08-07 21:19:38,875 - utils.function - INFO - Row 3,inserted
+2024-08-07 21:19:38,875 - utils.function - INFO - Row 3,inserted
+2024-08-07 21:19:38,875 - utils.function - INFO - Row 3,inserted
+2024-08-07 21:20:01,901 - utils.function - INFO - Row 4,inserted
+2024-08-07 21:20:01,901 - utils.function - INFO - Row 4,inserted
+2024-08-07 21:20:01,901 - utils.function - INFO - Row 4,inserted
+2024-08-07 21:20:01,901 - utils.function - INFO - Row 4,inserted
+2024-08-07 21:20:01,901 - utils.function - INFO - Row 4,inserted
+2024-08-07 21:20:01,901 - utils.function - INFO - Row 4,inserted
+2024-08-07 21:20:01,901 - utils.function - INFO - Row 4,inserted
+2024-08-07 21:20:12,615 - utils.function - INFO - Row 5,inserted
+2024-08-07 21:20:12,615 - utils.function - INFO - Row 5,inserted
+2024-08-07 21:20:12,615 - utils.function - INFO - Row 5,inserted
+2024-08-07 21:20:12,615 - utils.function - INFO - Row 5,inserted
+2024-08-07 21:20:12,615 - utils.function - INFO - Row 5,inserted
+2024-08-07 21:20:12,615 - utils.function - INFO - Row 5,inserted
+2024-08-07 21:20:12,615 - utils.function - INFO - Row 5,inserted
+2024-08-07 21:20:22,192 - utils.function - INFO - Row 6,inserted
+2024-08-07 21:20:22,192 - utils.function - INFO - Row 6,inserted
+2024-08-07 21:20:22,192 - utils.function - INFO - Row 6,inserted
+2024-08-07 21:20:22,192 - utils.function - INFO - Row 6,inserted
+2024-08-07 21:20:22,192 - utils.function - INFO - Row 6,inserted
+2024-08-07 21:20:22,192 - utils.function - INFO - Row 6,inserted
+2024-08-07 21:20:22,192 - utils.function - INFO - Row 6,inserted
+2024-08-07 21:20:30,267 - utils.function - INFO - Row 7,inserted
+2024-08-07 21:20:30,267 - utils.function - INFO - Row 7,inserted
+2024-08-07 21:20:30,267 - utils.function - INFO - Row 7,inserted
+2024-08-07 21:20:30,267 - utils.function - INFO - Row 7,inserted
+2024-08-07 21:20:30,267 - utils.function - INFO - Row 7,inserted
+2024-08-07 21:20:30,267 - utils.function - INFO - Row 7,inserted
+2024-08-07 21:20:30,267 - utils.function - INFO - Row 7,inserted
+2024-08-07 21:20:44,724 - utils.function - INFO - Row 8,inserted
+2024-08-07 21:20:44,724 - utils.function - INFO - Row 8,inserted
+2024-08-07 21:20:44,724 - utils.function - INFO - Row 8,inserted
+2024-08-07 21:20:44,724 - utils.function - INFO - Row 8,inserted
+2024-08-07 21:20:44,724 - utils.function - INFO - Row 8,inserted
+2024-08-07 21:20:44,724 - utils.function - INFO - Row 8,inserted
+2024-08-07 21:20:44,724 - utils.function - INFO - Row 8,inserted
+2024-08-07 21:20:52,938 - utils.function - INFO - Metrics generated for FlanT5 model
+2024-08-07 21:20:52,938 - utils.function - INFO - Metrics generated for FlanT5 model
+2024-08-07 21:20:52,938 - utils.function - INFO - Metrics generated for FlanT5 model
+2024-08-07 21:20:52,938 - utils.function - INFO - Metrics generated for FlanT5 model
+2024-08-07 21:20:52,938 - utils.function - INFO - Metrics generated for FlanT5 model
+2024-08-07 21:20:52,938 - utils.function - INFO - Metrics generated for FlanT5 model
+2024-08-07 21:20:52,938 - utils.function - INFO - Metrics generated for FlanT5 model
+2024-08-07 21:20:52,955 - utils.function - INFO - JSON file created for flanT5 model
+2024-08-07 21:20:52,955 - utils.function - INFO - JSON file created for flanT5 model
+2024-08-07 21:20:52,955 - utils.function - INFO - JSON file created for flanT5 model
+2024-08-07 21:20:52,955 - utils.function - INFO - JSON file created for flanT5 model
+2024-08-07 21:20:52,955 - utils.function - INFO - JSON file created for flanT5 model
+2024-08-07 21:20:52,955 - utils.function - INFO - JSON file created for flanT5 model
+2024-08-07 21:20:52,955 - utils.function - INFO - JSON file created for flanT5 model
+2024-08-07 21:20:56,647 - utils.function - INFO - Result file uploaded to Azure
+2024-08-07 21:20:56,647 - utils.function - INFO - Result file uploaded to Azure
+2024-08-07 21:20:56,647 - utils.function - INFO - Result file uploaded to Azure
+2024-08-07 21:20:56,647 - utils.function - INFO - Result file uploaded to Azure
+2024-08-07 21:20:56,647 - utils.function - INFO - Result file uploaded to Azure
+2024-08-07 21:20:56,647 - utils.function - INFO - Result file uploaded to Azure
+2024-08-07 21:20:56,647 - utils.function - INFO - Result file uploaded to Azure
+2024-08-07 21:54:32,224 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-07 21:54:32,224 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-07 21:54:32,224 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-07 21:54:32,224 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-07 21:54:32,224 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-07 21:54:32,224 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-07 21:54:32,224 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-07 21:54:38,830 - utils.function - INFO - Answer: The order status is currently PartiallyReceived.
+2024-08-07 21:54:38,830 - utils.function - INFO - Answer: The order status is currently PartiallyReceived.
+2024-08-07 21:54:38,830 - utils.function - INFO - Answer: The order status is currently PartiallyReceived.
+2024-08-07 21:54:38,830 - utils.function - INFO - Answer: The order status is currently PartiallyReceived.
+2024-08-07 21:54:38,830 - utils.function - INFO - Answer: The order status is currently PartiallyReceived.
+2024-08-07 21:54:38,830 - utils.function - INFO - Answer: The order status is currently PartiallyReceived.
+2024-08-07 21:54:38,830 - utils.function - INFO - Answer: The order status is currently PartiallyReceived.
+2024-08-07 21:54:43,805 - utils.function - INFO - Metrics computed successfully for FlanT5
+2024-08-07 21:54:43,805 - utils.function - INFO - Metrics computed successfully for FlanT5
+2024-08-07 21:54:43,805 - utils.function - INFO - Metrics computed successfully for FlanT5
+2024-08-07 21:54:43,805 - utils.function - INFO - Metrics computed successfully for FlanT5
+2024-08-07 21:54:43,805 - utils.function - INFO - Metrics computed successfully for FlanT5
+2024-08-07 21:54:43,805 - utils.function - INFO - Metrics computed successfully for FlanT5
+2024-08-07 21:54:43,805 - utils.function - INFO - Metrics computed successfully for FlanT5
+2024-08-07 21:56:45,029 - utils.function - INFO - Azure connected sucessfully
+2024-08-07 21:56:45,029 - utils.function - INFO - Azure connected sucessfully
+2024-08-07 21:56:45,029 - utils.function - INFO - Azure connected sucessfully
+2024-08-07 21:56:45,029 - utils.function - INFO - Azure connected sucessfully
+2024-08-07 21:56:45,029 - utils.function - INFO - Azure connected sucessfully
+2024-08-07 21:56:45,029 - utils.function - INFO - Azure connected sucessfully
+2024-08-07 21:56:45,029 - utils.function - INFO - Azure connected sucessfully
+2024-08-07 21:56:45,029 - utils.function - INFO - Azure connected sucessfully
+2024-08-07 21:56:45,047 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-07 21:56:45,047 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-07 21:56:45,047 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-07 21:56:45,047 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-07 21:56:45,047 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-07 21:56:45,047 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-07 21:56:45,047 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-07 21:56:45,047 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-07 21:56:45,052 - utils.function - INFO - Loading file data
+2024-08-07 21:56:45,052 - utils.function - INFO - Loading file data
+2024-08-07 21:56:45,052 - utils.function - INFO - Loading file data
+2024-08-07 21:56:45,052 - utils.function - INFO - Loading file data
+2024-08-07 21:56:45,052 - utils.function - INFO - Loading file data
+2024-08-07 21:56:45,052 - utils.function - INFO - Loading file data
+2024-08-07 21:56:45,052 - utils.function - INFO - Loading file data
+2024-08-07 21:56:45,052 - utils.function - INFO - Loading file data
+2024-08-07 21:56:45,351 - utils.function - INFO - Row 0,inserted
+2024-08-07 21:56:45,351 - utils.function - INFO - Row 0,inserted
+2024-08-07 21:56:45,351 - utils.function - INFO - Row 0,inserted
+2024-08-07 21:56:45,351 - utils.function - INFO - Row 0,inserted
+2024-08-07 21:56:45,351 - utils.function - INFO - Row 0,inserted
+2024-08-07 21:56:45,351 - utils.function - INFO - Row 0,inserted
+2024-08-07 21:56:45,351 - utils.function - INFO - Row 0,inserted
+2024-08-07 21:56:45,351 - utils.function - INFO - Row 0,inserted
+2024-08-07 21:57:34,576 - utils.function - INFO - Row 1,inserted
+2024-08-07 21:57:34,576 - utils.function - INFO - Row 1,inserted
+2024-08-07 21:57:34,576 - utils.function - INFO - Row 1,inserted
+2024-08-07 21:57:34,576 - utils.function - INFO - Row 1,inserted
+2024-08-07 21:57:34,576 - utils.function - INFO - Row 1,inserted
+2024-08-07 21:57:34,576 - utils.function - INFO - Row 1,inserted
+2024-08-07 21:57:34,576 - utils.function - INFO - Row 1,inserted
+2024-08-07 21:57:34,576 - utils.function - INFO - Row 1,inserted
+2024-08-07 21:58:23,271 - utils.function - INFO - Row 2,inserted
+2024-08-07 21:58:23,271 - utils.function - INFO - Row 2,inserted
+2024-08-07 21:58:23,271 - utils.function - INFO - Row 2,inserted
+2024-08-07 21:58:23,271 - utils.function - INFO - Row 2,inserted
+2024-08-07 21:58:23,271 - utils.function - INFO - Row 2,inserted
+2024-08-07 21:58:23,271 - utils.function - INFO - Row 2,inserted
+2024-08-07 21:58:23,271 - utils.function - INFO - Row 2,inserted
+2024-08-07 21:58:23,271 - utils.function - INFO - Row 2,inserted
+2024-08-07 21:59:13,799 - utils.function - INFO - Row 3,inserted
+2024-08-07 21:59:13,799 - utils.function - INFO - Row 3,inserted
+2024-08-07 21:59:13,799 - utils.function - INFO - Row 3,inserted
+2024-08-07 21:59:13,799 - utils.function - INFO - Row 3,inserted
+2024-08-07 21:59:13,799 - utils.function - INFO - Row 3,inserted
+2024-08-07 21:59:13,799 - utils.function - INFO - Row 3,inserted
+2024-08-07 21:59:13,799 - utils.function - INFO - Row 3,inserted
+2024-08-07 21:59:13,799 - utils.function - INFO - Row 3,inserted
+2024-08-07 21:59:50,672 - utils.function - INFO - Row 4,inserted
+2024-08-07 21:59:50,672 - utils.function - INFO - Row 4,inserted
+2024-08-07 21:59:50,672 - utils.function - INFO - Row 4,inserted
+2024-08-07 21:59:50,672 - utils.function - INFO - Row 4,inserted
+2024-08-07 21:59:50,672 - utils.function - INFO - Row 4,inserted
+2024-08-07 21:59:50,672 - utils.function - INFO - Row 4,inserted
+2024-08-07 21:59:50,672 - utils.function - INFO - Row 4,inserted
+2024-08-07 21:59:50,672 - utils.function - INFO - Row 4,inserted
+2024-08-07 22:00:21,429 - utils.function - INFO - Row 5,inserted
+2024-08-07 22:00:21,429 - utils.function - INFO - Row 5,inserted
+2024-08-07 22:00:21,429 - utils.function - INFO - Row 5,inserted
+2024-08-07 22:00:21,429 - utils.function - INFO - Row 5,inserted
+2024-08-07 22:00:21,429 - utils.function - INFO - Row 5,inserted
+2024-08-07 22:00:21,429 - utils.function - INFO - Row 5,inserted
+2024-08-07 22:00:21,429 - utils.function - INFO - Row 5,inserted
+2024-08-07 22:00:21,429 - utils.function - INFO - Row 5,inserted
+2024-08-07 22:00:59,960 - utils.function - INFO - Row 6,inserted
+2024-08-07 22:00:59,960 - utils.function - INFO - Row 6,inserted
+2024-08-07 22:00:59,960 - utils.function - INFO - Row 6,inserted
+2024-08-07 22:00:59,960 - utils.function - INFO - Row 6,inserted
+2024-08-07 22:00:59,960 - utils.function - INFO - Row 6,inserted
+2024-08-07 22:00:59,960 - utils.function - INFO - Row 6,inserted
+2024-08-07 22:00:59,960 - utils.function - INFO - Row 6,inserted
+2024-08-07 22:00:59,960 - utils.function - INFO - Row 6,inserted
+2024-08-07 22:01:53,125 - utils.function - INFO - Row 7,inserted
+2024-08-07 22:01:53,125 - utils.function - INFO - Row 7,inserted
+2024-08-07 22:01:53,125 - utils.function - INFO - Row 7,inserted
+2024-08-07 22:01:53,125 - utils.function - INFO - Row 7,inserted
+2024-08-07 22:01:53,125 - utils.function - INFO - Row 7,inserted
+2024-08-07 22:01:53,125 - utils.function - INFO - Row 7,inserted
+2024-08-07 22:01:53,125 - utils.function - INFO - Row 7,inserted
+2024-08-07 22:01:53,125 - utils.function - INFO - Row 7,inserted
+2024-08-07 22:02:41,923 - utils.function - INFO - Row 8,inserted
+2024-08-07 22:02:41,923 - utils.function - INFO - Row 8,inserted
+2024-08-07 22:02:41,923 - utils.function - INFO - Row 8,inserted
+2024-08-07 22:02:41,923 - utils.function - INFO - Row 8,inserted
+2024-08-07 22:02:41,923 - utils.function - INFO - Row 8,inserted
+2024-08-07 22:02:41,923 - utils.function - INFO - Row 8,inserted
+2024-08-07 22:02:41,923 - utils.function - INFO - Row 8,inserted
+2024-08-07 22:02:41,923 - utils.function - INFO - Row 8,inserted
+2024-08-07 22:03:15,946 - utils.function - INFO - Metrics generated for GPT model
+2024-08-07 22:03:15,946 - utils.function - INFO - Metrics generated for GPT model
+2024-08-07 22:03:15,946 - utils.function - INFO - Metrics generated for GPT model
+2024-08-07 22:03:15,946 - utils.function - INFO - Metrics generated for GPT model
+2024-08-07 22:03:15,946 - utils.function - INFO - Metrics generated for GPT model
+2024-08-07 22:03:15,946 - utils.function - INFO - Metrics generated for GPT model
+2024-08-07 22:03:15,946 - utils.function - INFO - Metrics generated for GPT model
+2024-08-07 22:03:15,946 - utils.function - INFO - Metrics generated for GPT model
+2024-08-07 22:03:15,968 - utils.function - INFO - JSON file created for GPT model
+2024-08-07 22:03:15,968 - utils.function - INFO - JSON file created for GPT model
+2024-08-07 22:03:15,968 - utils.function - INFO - JSON file created for GPT model
+2024-08-07 22:03:15,968 - utils.function - INFO - JSON file created for GPT model
+2024-08-07 22:03:15,968 - utils.function - INFO - JSON file created for GPT model
+2024-08-07 22:03:15,968 - utils.function - INFO - JSON file created for GPT model
+2024-08-07 22:03:15,968 - utils.function - INFO - JSON file created for GPT model
+2024-08-07 22:03:15,968 - utils.function - INFO - JSON file created for GPT model
+2024-08-07 22:03:21,180 - utils.function - INFO - Result file uploaded to Azure
+2024-08-07 22:03:21,180 - utils.function - INFO - Result file uploaded to Azure
+2024-08-07 22:03:21,180 - utils.function - INFO - Result file uploaded to Azure
+2024-08-07 22:03:21,180 - utils.function - INFO - Result file uploaded to Azure
+2024-08-07 22:03:21,180 - utils.function - INFO - Result file uploaded to Azure
+2024-08-07 22:03:21,180 - utils.function - INFO - Result file uploaded to Azure
+2024-08-07 22:03:21,180 - utils.function - INFO - Result file uploaded to Azure
+2024-08-07 22:03:21,180 - utils.function - INFO - Result file uploaded to Azure
+2024-08-07 22:05:06,297 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-07 22:05:06,297 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-07 22:05:06,297 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-07 22:05:06,297 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-07 22:05:06,297 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-07 22:05:06,297 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-07 22:05:06,297 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-07 22:05:06,297 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-07 22:05:34,659 - utils.function - INFO - Answer: An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints. Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay. If you have any further questions, please contact us at buyer@adidas.com and we will try our best to answer them as quickly as possible. Thank you for your understanding.
+2024-08-07 22:05:34,659 - utils.function - INFO - Answer: An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints. Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay. If you have any further questions, please contact us at buyer@adidas.com and we will try our best to answer them as quickly as possible. Thank you for your understanding.
+2024-08-07 22:05:34,659 - utils.function - INFO - Answer: An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints. Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay. If you have any further questions, please contact us at buyer@adidas.com and we will try our best to answer them as quickly as possible. Thank you for your understanding.
+2024-08-07 22:05:34,659 - utils.function - INFO - Answer: An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints. Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay. If you have any further questions, please contact us at buyer@adidas.com and we will try our best to answer them as quickly as possible. Thank you for your understanding.
+2024-08-07 22:05:34,659 - utils.function - INFO - Answer: An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints. Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay. If you have any further questions, please contact us at buyer@adidas.com and we will try our best to answer them as quickly as possible. Thank you for your understanding.
+2024-08-07 22:05:34,659 - utils.function - INFO - Answer: An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints. Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay. If you have any further questions, please contact us at buyer@adidas.com and we will try our best to answer them as quickly as possible. Thank you for your understanding.
+2024-08-07 22:05:34,659 - utils.function - INFO - Answer: An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints. Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay. If you have any further questions, please contact us at buyer@adidas.com and we will try our best to answer them as quickly as possible. Thank you for your understanding.
+2024-08-07 22:05:34,659 - utils.function - INFO - Answer: An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints. Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay. If you have any further questions, please contact us at buyer@adidas.com and we will try our best to answer them as quickly as possible. Thank you for your understanding.
+2024-08-07 22:05:46,988 - utils.function - INFO - Metrics computed successfully for GPT
+2024-08-07 22:05:46,988 - utils.function - INFO - Metrics computed successfully for GPT
+2024-08-07 22:05:46,988 - utils.function - INFO - Metrics computed successfully for GPT
+2024-08-07 22:05:46,988 - utils.function - INFO - Metrics computed successfully for GPT
+2024-08-07 22:05:46,988 - utils.function - INFO - Metrics computed successfully for GPT
+2024-08-07 22:05:46,988 - utils.function - INFO - Metrics computed successfully for GPT
+2024-08-07 22:05:46,988 - utils.function - INFO - Metrics computed successfully for GPT
+2024-08-07 22:05:46,988 - utils.function - INFO - Metrics computed successfully for GPT
+2024-08-08 23:01:53,479 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:01:53,479 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:01:56,106 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:01:56,106 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:01:56,106 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:02:11,511 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:02:11,511 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:02:11,511 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:02:11,511 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:02:11,511 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:02:12,935 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:02:12,935 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:02:12,935 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:02:12,935 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:02:12,935 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:02:12,935 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:14:59,764 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:14:59,764 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:14:59,764 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:14:59,764 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:14:59,764 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:14:59,764 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:14:59,764 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:14:59,764 - utils.function - INFO - Initializing and loading GPT model
+2024-08-08 23:22:02,921 - utils.function - INFO - Azure connected sucessfully
+2024-08-08 23:22:02,921 - utils.function - INFO - Azure connected sucessfully
+2024-08-08 23:22:02,921 - utils.function - INFO - Azure connected sucessfully
+2024-08-08 23:22:02,921 - utils.function - INFO - Azure connected sucessfully
+2024-08-08 23:22:02,921 - utils.function - INFO - Azure connected sucessfully
+2024-08-08 23:22:02,921 - utils.function - INFO - Azure connected sucessfully
+2024-08-08 23:22:02,921 - utils.function - INFO - Azure connected sucessfully
+2024-08-08 23:22:02,921 - utils.function - INFO - Azure connected sucessfully
+2024-08-08 23:22:02,921 - utils.function - INFO - Azure connected sucessfully
+2024-08-08 23:22:02,935 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-08 23:22:02,935 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-08 23:22:02,935 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-08 23:22:02,935 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-08 23:22:02,935 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-08 23:22:02,935 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-08 23:22:02,935 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-08 23:22:02,935 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-08 23:22:02,935 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-08 23:22:02,937 - utils.function - INFO - Loading file data
+2024-08-08 23:22:02,937 - utils.function - INFO - Loading file data
+2024-08-08 23:22:02,937 - utils.function - INFO - Loading file data
+2024-08-08 23:22:02,937 - utils.function - INFO - Loading file data
+2024-08-08 23:22:02,937 - utils.function - INFO - Loading file data
+2024-08-08 23:22:02,937 - utils.function - INFO - Loading file data
+2024-08-08 23:22:02,937 - utils.function - INFO - Loading file data
+2024-08-08 23:22:02,937 - utils.function - INFO - Loading file data
+2024-08-08 23:22:02,937 - utils.function - INFO - Loading file data
+2024-08-08 23:22:02,959 - utils.function - INFO - Row 0,inserted
+2024-08-08 23:22:02,959 - utils.function - INFO - Row 0,inserted
+2024-08-08 23:22:02,959 - utils.function - INFO - Row 0,inserted
+2024-08-08 23:22:02,959 - utils.function - INFO - Row 0,inserted
+2024-08-08 23:22:02,959 - utils.function - INFO - Row 0,inserted
+2024-08-08 23:22:02,959 - utils.function - INFO - Row 0,inserted
+2024-08-08 23:22:02,959 - utils.function - INFO - Row 0,inserted
+2024-08-08 23:22:02,959 - utils.function - INFO - Row 0,inserted
+2024-08-08 23:22:02,959 - utils.function - INFO - Row 0,inserted
+2024-08-08 23:23:48,590 - utils.function - INFO - Row 1,inserted
+2024-08-08 23:23:48,590 - utils.function - INFO - Row 1,inserted
+2024-08-08 23:23:48,590 - utils.function - INFO - Row 1,inserted
+2024-08-08 23:23:48,590 - utils.function - INFO - Row 1,inserted
+2024-08-08 23:23:48,590 - utils.function - INFO - Row 1,inserted
+2024-08-08 23:23:48,590 - utils.function - INFO - Row 1,inserted
+2024-08-08 23:23:48,590 - utils.function - INFO - Row 1,inserted
+2024-08-08 23:23:48,590 - utils.function - INFO - Row 1,inserted
+2024-08-08 23:23:48,590 - utils.function - INFO - Row 1,inserted
+2024-08-08 23:24:13,423 - utils.function - INFO - Row 2,inserted
+2024-08-08 23:24:13,423 - utils.function - INFO - Row 2,inserted
+2024-08-08 23:24:13,423 - utils.function - INFO - Row 2,inserted
+2024-08-08 23:24:13,423 - utils.function - INFO - Row 2,inserted
+2024-08-08 23:24:13,423 - utils.function - INFO - Row 2,inserted
+2024-08-08 23:24:13,423 - utils.function - INFO - Row 2,inserted
+2024-08-08 23:24:13,423 - utils.function - INFO - Row 2,inserted
+2024-08-08 23:24:13,423 - utils.function - INFO - Row 2,inserted
+2024-08-08 23:24:13,423 - utils.function - INFO - Row 2,inserted
+2024-08-08 23:24:37,955 - utils.function - INFO - Row 3,inserted
+2024-08-08 23:24:37,955 - utils.function - INFO - Row 3,inserted
+2024-08-08 23:24:37,955 - utils.function - INFO - Row 3,inserted
+2024-08-08 23:24:37,955 - utils.function - INFO - Row 3,inserted
+2024-08-08 23:24:37,955 - utils.function - INFO - Row 3,inserted
+2024-08-08 23:24:37,955 - utils.function - INFO - Row 3,inserted
+2024-08-08 23:24:37,955 - utils.function - INFO - Row 3,inserted
+2024-08-08 23:24:37,955 - utils.function - INFO - Row 3,inserted
+2024-08-08 23:24:37,955 - utils.function - INFO - Row 3,inserted
+2024-08-08 23:24:59,495 - utils.function - INFO - Row 4,inserted
+2024-08-08 23:24:59,495 - utils.function - INFO - Row 4,inserted
+2024-08-08 23:24:59,495 - utils.function - INFO - Row 4,inserted
+2024-08-08 23:24:59,495 - utils.function - INFO - Row 4,inserted
+2024-08-08 23:24:59,495 - utils.function - INFO - Row 4,inserted
+2024-08-08 23:24:59,495 - utils.function - INFO - Row 4,inserted
+2024-08-08 23:24:59,495 - utils.function - INFO - Row 4,inserted
+2024-08-08 23:24:59,495 - utils.function - INFO - Row 4,inserted
+2024-08-08 23:24:59,495 - utils.function - INFO - Row 4,inserted
+2024-08-08 23:25:20,250 - utils.function - INFO - Row 5,inserted
+2024-08-08 23:25:20,250 - utils.function - INFO - Row 5,inserted
+2024-08-08 23:25:20,250 - utils.function - INFO - Row 5,inserted
+2024-08-08 23:25:20,250 - utils.function - INFO - Row 5,inserted
+2024-08-08 23:25:20,250 - utils.function - INFO - Row 5,inserted
+2024-08-08 23:25:20,250 - utils.function - INFO - Row 5,inserted
+2024-08-08 23:25:20,250 - utils.function - INFO - Row 5,inserted
+2024-08-08 23:25:20,250 - utils.function - INFO - Row 5,inserted
+2024-08-08 23:25:20,250 - utils.function - INFO - Row 5,inserted
+2024-08-08 23:25:44,114 - utils.function - INFO - Row 6,inserted
+2024-08-08 23:25:44,114 - utils.function - INFO - Row 6,inserted
+2024-08-08 23:25:44,114 - utils.function - INFO - Row 6,inserted
+2024-08-08 23:25:44,114 - utils.function - INFO - Row 6,inserted
+2024-08-08 23:25:44,114 - utils.function - INFO - Row 6,inserted
+2024-08-08 23:25:44,114 - utils.function - INFO - Row 6,inserted
+2024-08-08 23:25:44,114 - utils.function - INFO - Row 6,inserted
+2024-08-08 23:25:44,114 - utils.function - INFO - Row 6,inserted
+2024-08-08 23:25:44,114 - utils.function - INFO - Row 6,inserted
+2024-08-08 23:26:05,335 - utils.function - INFO - Row 7,inserted
+2024-08-08 23:26:05,335 - utils.function - INFO - Row 7,inserted
+2024-08-08 23:26:05,335 - utils.function - INFO - Row 7,inserted
+2024-08-08 23:26:05,335 - utils.function - INFO - Row 7,inserted
+2024-08-08 23:26:05,335 - utils.function - INFO - Row 7,inserted
+2024-08-08 23:26:05,335 - utils.function - INFO - Row 7,inserted
+2024-08-08 23:26:05,335 - utils.function - INFO - Row 7,inserted
+2024-08-08 23:26:05,335 - utils.function - INFO - Row 7,inserted
+2024-08-08 23:26:05,335 - utils.function - INFO - Row 7,inserted
+2024-08-08 23:26:35,406 - utils.function - INFO - Row 8,inserted
+2024-08-08 23:26:35,406 - utils.function - INFO - Row 8,inserted
+2024-08-08 23:26:35,406 - utils.function - INFO - Row 8,inserted
+2024-08-08 23:26:35,406 - utils.function - INFO - Row 8,inserted
+2024-08-08 23:26:35,406 - utils.function - INFO - Row 8,inserted
+2024-08-08 23:26:35,406 - utils.function - INFO - Row 8,inserted
+2024-08-08 23:26:35,406 - utils.function - INFO - Row 8,inserted
+2024-08-08 23:26:35,406 - utils.function - INFO - Row 8,inserted
+2024-08-08 23:26:35,406 - utils.function - INFO - Row 8,inserted
+2024-08-08 23:27:00,414 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-08 23:27:00,414 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-08 23:27:00,414 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-08 23:27:00,414 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-08 23:27:00,414 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-08 23:27:00,414 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-08 23:27:00,414 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-08 23:27:00,414 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-08 23:27:00,414 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-08 23:27:00,426 - utils.function - INFO - JSON file created for Gemini model
+2024-08-08 23:27:00,426 - utils.function - INFO - JSON file created for Gemini model
+2024-08-08 23:27:00,426 - utils.function - INFO - JSON file created for Gemini model
+2024-08-08 23:27:00,426 - utils.function - INFO - JSON file created for Gemini model
+2024-08-08 23:27:00,426 - utils.function - INFO - JSON file created for Gemini model
+2024-08-08 23:27:00,426 - utils.function - INFO - JSON file created for Gemini model
+2024-08-08 23:27:00,426 - utils.function - INFO - JSON file created for Gemini model
+2024-08-08 23:27:00,426 - utils.function - INFO - JSON file created for Gemini model
+2024-08-08 23:27:00,426 - utils.function - INFO - JSON file created for Gemini model
+2024-08-08 23:27:03,212 - utils.function - INFO - Result file uploaded to Azure
+2024-08-08 23:27:03,212 - utils.function - INFO - Result file uploaded to Azure
+2024-08-08 23:27:03,212 - utils.function - INFO - Result file uploaded to Azure
+2024-08-08 23:27:03,212 - utils.function - INFO - Result file uploaded to Azure
+2024-08-08 23:27:03,212 - utils.function - INFO - Result file uploaded to Azure
+2024-08-08 23:27:03,212 - utils.function - INFO - Result file uploaded to Azure
+2024-08-08 23:27:03,212 - utils.function - INFO - Result file uploaded to Azure
+2024-08-08 23:27:03,212 - utils.function - INFO - Result file uploaded to Azure
+2024-08-08 23:27:03,212 - utils.function - INFO - Result file uploaded to Azure
+2024-08-09 00:44:26,369 - utils.function - INFO - Azure connected sucessfully
+2024-08-09 00:44:26,369 - utils.function - INFO - Azure connected sucessfully
+2024-08-09 00:44:26,369 - utils.function - INFO - Azure connected sucessfully
+2024-08-09 00:44:26,369 - utils.function - INFO - Azure connected sucessfully
+2024-08-09 00:44:26,369 - utils.function - INFO - Azure connected sucessfully
+2024-08-09 00:44:26,369 - utils.function - INFO - Azure connected sucessfully
+2024-08-09 00:44:26,369 - utils.function - INFO - Azure connected sucessfully
+2024-08-09 00:44:26,369 - utils.function - INFO - Azure connected sucessfully
+2024-08-09 00:44:26,369 - utils.function - INFO - Azure connected sucessfully
+2024-08-09 00:44:26,369 - utils.function - INFO - Azure connected sucessfully
+2024-08-09 00:44:26,398 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-09 00:44:26,398 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-09 00:44:26,398 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-09 00:44:26,398 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-09 00:44:26,398 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-09 00:44:26,398 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-09 00:44:26,398 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-09 00:44:26,398 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-09 00:44:26,398 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-09 00:44:26,398 - utils.function - INFO - TMP_SAVE_UPLOAD_FILE_PATH created successfully
+2024-08-09 00:44:26,398 - utils.function - INFO - Loading file data
+2024-08-09 00:44:26,398 - utils.function - INFO - Loading file data
+2024-08-09 00:44:26,398 - utils.function - INFO - Loading file data
+2024-08-09 00:44:26,398 - utils.function - INFO - Loading file data
+2024-08-09 00:44:26,398 - utils.function - INFO - Loading file data
+2024-08-09 00:44:26,398 - utils.function - INFO - Loading file data
+2024-08-09 00:44:26,398 - utils.function - INFO - Loading file data
+2024-08-09 00:44:26,398 - utils.function - INFO - Loading file data
+2024-08-09 00:44:26,398 - utils.function - INFO - Loading file data
+2024-08-09 00:44:26,398 - utils.function - INFO - Loading file data
+2024-08-09 00:44:26,778 - utils.function - INFO - Row 0,inserted
+2024-08-09 00:44:26,778 - utils.function - INFO - Row 0,inserted
+2024-08-09 00:44:26,778 - utils.function - INFO - Row 0,inserted
+2024-08-09 00:44:26,778 - utils.function - INFO - Row 0,inserted
+2024-08-09 00:44:26,778 - utils.function - INFO - Row 0,inserted
+2024-08-09 00:44:26,778 - utils.function - INFO - Row 0,inserted
+2024-08-09 00:44:26,778 - utils.function - INFO - Row 0,inserted
+2024-08-09 00:44:26,778 - utils.function - INFO - Row 0,inserted
+2024-08-09 00:44:26,778 - utils.function - INFO - Row 0,inserted
+2024-08-09 00:44:26,778 - utils.function - INFO - Row 0,inserted
+2024-08-09 00:45:28,310 - utils.function - INFO - Row 1,inserted
+2024-08-09 00:45:28,310 - utils.function - INFO - Row 1,inserted
+2024-08-09 00:45:28,310 - utils.function - INFO - Row 1,inserted
+2024-08-09 00:45:28,310 - utils.function - INFO - Row 1,inserted
+2024-08-09 00:45:28,310 - utils.function - INFO - Row 1,inserted
+2024-08-09 00:45:28,310 - utils.function - INFO - Row 1,inserted
+2024-08-09 00:45:28,310 - utils.function - INFO - Row 1,inserted
+2024-08-09 00:45:28,310 - utils.function - INFO - Row 1,inserted
+2024-08-09 00:45:28,310 - utils.function - INFO - Row 1,inserted
+2024-08-09 00:45:28,310 - utils.function - INFO - Row 1,inserted
+2024-08-09 00:46:02,365 - utils.function - INFO - Row 2,inserted
+2024-08-09 00:46:02,365 - utils.function - INFO - Row 2,inserted
+2024-08-09 00:46:02,365 - utils.function - INFO - Row 2,inserted
+2024-08-09 00:46:02,365 - utils.function - INFO - Row 2,inserted
+2024-08-09 00:46:02,365 - utils.function - INFO - Row 2,inserted
+2024-08-09 00:46:02,365 - utils.function - INFO - Row 2,inserted
+2024-08-09 00:46:02,365 - utils.function - INFO - Row 2,inserted
+2024-08-09 00:46:02,365 - utils.function - INFO - Row 2,inserted
+2024-08-09 00:46:02,365 - utils.function - INFO - Row 2,inserted
+2024-08-09 00:46:02,365 - utils.function - INFO - Row 2,inserted
+2024-08-09 00:46:38,753 - utils.function - INFO - Row 3,inserted
+2024-08-09 00:46:38,753 - utils.function - INFO - Row 3,inserted
+2024-08-09 00:46:38,753 - utils.function - INFO - Row 3,inserted
+2024-08-09 00:46:38,753 - utils.function - INFO - Row 3,inserted
+2024-08-09 00:46:38,753 - utils.function - INFO - Row 3,inserted
+2024-08-09 00:46:38,753 - utils.function - INFO - Row 3,inserted
+2024-08-09 00:46:38,753 - utils.function - INFO - Row 3,inserted
+2024-08-09 00:46:38,753 - utils.function - INFO - Row 3,inserted
+2024-08-09 00:46:38,753 - utils.function - INFO - Row 3,inserted
+2024-08-09 00:46:38,753 - utils.function - INFO - Row 3,inserted
+2024-08-09 00:47:32,030 - utils.function - INFO - Row 4,inserted
+2024-08-09 00:47:32,030 - utils.function - INFO - Row 4,inserted
+2024-08-09 00:47:32,030 - utils.function - INFO - Row 4,inserted
+2024-08-09 00:47:32,030 - utils.function - INFO - Row 4,inserted
+2024-08-09 00:47:32,030 - utils.function - INFO - Row 4,inserted
+2024-08-09 00:47:32,030 - utils.function - INFO - Row 4,inserted
+2024-08-09 00:47:32,030 - utils.function - INFO - Row 4,inserted
+2024-08-09 00:47:32,030 - utils.function - INFO - Row 4,inserted
+2024-08-09 00:47:32,030 - utils.function - INFO - Row 4,inserted
+2024-08-09 00:47:32,030 - utils.function - INFO - Row 4,inserted
+2024-08-09 00:48:01,888 - utils.function - INFO - Row 5,inserted
+2024-08-09 00:48:01,888 - utils.function - INFO - Row 5,inserted
+2024-08-09 00:48:01,888 - utils.function - INFO - Row 5,inserted
+2024-08-09 00:48:01,888 - utils.function - INFO - Row 5,inserted
+2024-08-09 00:48:01,888 - utils.function - INFO - Row 5,inserted
+2024-08-09 00:48:01,888 - utils.function - INFO - Row 5,inserted
+2024-08-09 00:48:01,888 - utils.function - INFO - Row 5,inserted
+2024-08-09 00:48:01,888 - utils.function - INFO - Row 5,inserted
+2024-08-09 00:48:01,888 - utils.function - INFO - Row 5,inserted
+2024-08-09 00:48:01,888 - utils.function - INFO - Row 5,inserted
+2024-08-09 00:48:32,628 - utils.function - INFO - Row 6,inserted
+2024-08-09 00:48:32,628 - utils.function - INFO - Row 6,inserted
+2024-08-09 00:48:32,628 - utils.function - INFO - Row 6,inserted
+2024-08-09 00:48:32,628 - utils.function - INFO - Row 6,inserted
+2024-08-09 00:48:32,628 - utils.function - INFO - Row 6,inserted
+2024-08-09 00:48:32,628 - utils.function - INFO - Row 6,inserted
+2024-08-09 00:48:32,628 - utils.function - INFO - Row 6,inserted
+2024-08-09 00:48:32,628 - utils.function - INFO - Row 6,inserted
+2024-08-09 00:48:32,628 - utils.function - INFO - Row 6,inserted
+2024-08-09 00:48:32,628 - utils.function - INFO - Row 6,inserted
+2024-08-09 00:49:04,277 - utils.function - INFO - Row 7,inserted
+2024-08-09 00:49:04,277 - utils.function - INFO - Row 7,inserted
+2024-08-09 00:49:04,277 - utils.function - INFO - Row 7,inserted
+2024-08-09 00:49:04,277 - utils.function - INFO - Row 7,inserted
+2024-08-09 00:49:04,277 - utils.function - INFO - Row 7,inserted
+2024-08-09 00:49:04,277 - utils.function - INFO - Row 7,inserted
+2024-08-09 00:49:04,277 - utils.function - INFO - Row 7,inserted
+2024-08-09 00:49:04,277 - utils.function - INFO - Row 7,inserted
+2024-08-09 00:49:04,277 - utils.function - INFO - Row 7,inserted
+2024-08-09 00:49:04,277 - utils.function - INFO - Row 7,inserted
+2024-08-09 00:49:48,647 - utils.function - INFO - Row 8,inserted
+2024-08-09 00:49:48,647 - utils.function - INFO - Row 8,inserted
+2024-08-09 00:49:48,647 - utils.function - INFO - Row 8,inserted
+2024-08-09 00:49:48,647 - utils.function - INFO - Row 8,inserted
+2024-08-09 00:49:48,647 - utils.function - INFO - Row 8,inserted
+2024-08-09 00:49:48,647 - utils.function - INFO - Row 8,inserted
+2024-08-09 00:49:48,647 - utils.function - INFO - Row 8,inserted
+2024-08-09 00:49:48,647 - utils.function - INFO - Row 8,inserted
+2024-08-09 00:49:48,647 - utils.function - INFO - Row 8,inserted
+2024-08-09 00:49:48,647 - utils.function - INFO - Row 8,inserted
+2024-08-09 00:50:24,657 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-09 00:50:24,657 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-09 00:50:24,657 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-09 00:50:24,657 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-09 00:50:24,657 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-09 00:50:24,657 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-09 00:50:24,657 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-09 00:50:24,657 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-09 00:50:24,657 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-09 00:50:24,657 - utils.function - INFO - Metrics generated for Gemini model
+2024-08-09 00:50:24,677 - utils.function - INFO - JSON file created for Gemini model
+2024-08-09 00:50:24,677 - utils.function - INFO - JSON file created for Gemini model
+2024-08-09 00:50:24,677 - utils.function - INFO - JSON file created for Gemini model
+2024-08-09 00:50:24,677 - utils.function - INFO - JSON file created for Gemini model
+2024-08-09 00:50:24,677 - utils.function - INFO - JSON file created for Gemini model
+2024-08-09 00:50:24,677 - utils.function - INFO - JSON file created for Gemini model
+2024-08-09 00:50:24,677 - utils.function - INFO - JSON file created for Gemini model
+2024-08-09 00:50:24,677 - utils.function - INFO - JSON file created for Gemini model
+2024-08-09 00:50:24,677 - utils.function - INFO - JSON file created for Gemini model
+2024-08-09 00:50:24,677 - utils.function - INFO - JSON file created for Gemini model
+2024-08-09 00:50:27,558 - utils.function - INFO - Result file uploaded to Azure
+2024-08-09 00:50:27,558 - utils.function - INFO - Result file uploaded to Azure
+2024-08-09 00:50:27,558 - utils.function - INFO - Result file uploaded to Azure
+2024-08-09 00:50:27,558 - utils.function - INFO - Result file uploaded to Azure
+2024-08-09 00:50:27,558 - utils.function - INFO - Result file uploaded to Azure
+2024-08-09 00:50:27,558 - utils.function - INFO - Result file uploaded to Azure
+2024-08-09 00:50:27,558 - utils.function - INFO - Result file uploaded to Azure
+2024-08-09 00:50:27,558 - utils.function - INFO - Result file uploaded to Azure
+2024-08-09 00:50:27,558 - utils.function - INFO - Result file uploaded to Azure
+2024-08-09 00:50:27,558 - utils.function - INFO - Result file uploaded to Azure
+2024-08-09 00:59:17,593 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-09 00:59:17,593 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-09 00:59:17,593 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-09 00:59:17,593 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-09 00:59:17,593 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-09 00:59:17,593 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-09 00:59:17,593 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-09 00:59:17,593 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-09 00:59:17,593 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-09 00:59:17,593 - utils.function - INFO - Payload: {'context': 'An order with ID WM_358FR1167XXX was placed on 2024-05-09 16:03:31.577000 UTC by buyer AIDXXX from seller JXXXXXXXXXXXXXXX. The order is for 8 units of adidas Ultimate365 3-Stripes Polo Shirt, Burgundy color. The order type is DC2CD and the shipment node is NJ. The requested shipping date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order status is currently PartiallyReceived. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.', 'question': 'Can you provide details about the order placed by buyer AIDXXX from seller JXXXXXXXXXXXXXXX with order ID WM_358FR1167XXX? Include the order date, order status, requested ship date and delivery date, actual ship date and delivery date, and the reason for the delay.', 'reference_answer': 'The order was placed on 2024-05-09 16:03:31.577000 UTC. The order status is PartiallyReceived. The requested ship date was 2024-05-12 16:03:31.577000 UTC and the requested delivery date was 2024-05-15 16:03:31.577000 UTC. The order was shipped on 2024-05-14 16:03:31.577000 UTC and delivered on 2024-05-19 16:03:31.577000 UTC. The delay was due to Warehouse and Shipping Capacity Constraints.'}
+2024-08-09 00:59:55,919 - utils.function - INFO - Answer: This code is placing an order in the adidas Ultimate365 3-Stripes Polo Shirt. The order ID is DC2CD and the shipment node is NJ.
+2024-08-09 00:59:55,919 - utils.function - INFO - Answer: This code is placing an order in the adidas Ultimate365 3-Stripes Polo Shirt. The order ID is DC2CD and the shipment node is NJ.
+2024-08-09 00:59:55,919 - utils.function - INFO - Answer: This code is placing an order in the adidas Ultimate365 3-Stripes Polo Shirt. The order ID is DC2CD and the shipment node is NJ.
+2024-08-09 00:59:55,919 - utils.function - INFO - Answer: This code is placing an order in the adidas Ultimate365 3-Stripes Polo Shirt. The order ID is DC2CD and the shipment node is NJ.
+2024-08-09 00:59:55,919 - utils.function - INFO - Answer: This code is placing an order in the adidas Ultimate365 3-Stripes Polo Shirt. The order ID is DC2CD and the shipment node is NJ.
+2024-08-09 00:59:55,919 - utils.function - INFO - Answer: This code is placing an order in the adidas Ultimate365 3-Stripes Polo Shirt. The order ID is DC2CD and the shipment node is NJ.
+2024-08-09 00:59:55,919 - utils.function - INFO - Answer: This code is placing an order in the adidas Ultimate365 3-Stripes Polo Shirt. The order ID is DC2CD and the shipment node is NJ.
+2024-08-09 00:59:55,919 - utils.function - INFO - Answer: This code is placing an order in the adidas Ultimate365 3-Stripes Polo Shirt. The order ID is DC2CD and the shipment node is NJ.
+2024-08-09 00:59:55,919 - utils.function - INFO - Answer: This code is placing an order in the adidas Ultimate365 3-Stripes Polo Shirt. The order ID is DC2CD and the shipment node is NJ.
+2024-08-09 00:59:55,919 - utils.function - INFO - Answer: This code is placing an order in the adidas Ultimate365 3-Stripes Polo Shirt. The order ID is DC2CD and the shipment node is NJ.
+2024-08-09 01:00:03,075 - utils.function - INFO - Metrics computed successfully for Gemini
+2024-08-09 01:00:03,075 - utils.function - INFO - Metrics computed successfully for Gemini
+2024-08-09 01:00:03,075 - utils.function - INFO - Metrics computed successfully for Gemini
+2024-08-09 01:00:03,075 - utils.function - INFO - Metrics computed successfully for Gemini
+2024-08-09 01:00:03,075 - utils.function - INFO - Metrics computed successfully for Gemini
+2024-08-09 01:00:03,075 - utils.function - INFO - Metrics computed successfully for Gemini
+2024-08-09 01:00:03,075 - utils.function - INFO - Metrics computed successfully for Gemini
+2024-08-09 01:00:03,075 - utils.function - INFO - Metrics computed successfully for Gemini
+2024-08-09 01:00:03,075 - utils.function - INFO - Metrics computed successfully for Gemini
+2024-08-09 01:00:03,075 - utils.function - INFO - Metrics computed successfully for Gemini

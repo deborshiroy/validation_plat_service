@@ -1,9 +1,7 @@
 from azure.identity import DefaultAzureCredential
 from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient, generate_blob_sas, BlobSasPermissions
-
 from datetime import datetime, timedelta
-
-from utils.function import generate_random_hex
+from utils.function import * #generate_random_hex
 
 import traceback
 import sys
@@ -27,6 +25,7 @@ class azure_ops:
         """
 
         try:
+            self.logger= Initialize_logger()
             self.account_name = account_name
             self.account_key = account_key
             self.container_name = container_name
@@ -35,8 +34,12 @@ class azure_ops:
             self.connect_str = 'DefaultEndpointsProtocol=https;AccountName=' + self.account_name + ';AccountKey=' + self.account_key + ';Endpointsuffix=core.windows.net'
             self.blob_service_client = BlobServiceClient.from_connection_string(self.connect_str)
             self.container_client = self.blob_service_client.get_container_client(self.container_name)
+            self.logger.info("Azure connected sucessfully")
             print("azure connected sucessfully !!")
+
         except Exception as e:
+            self.logger.error(f'Exception occured on connecting to Azure portal inside azure_services: {e}')
+            self.logger.error(traceback.print_exc(file=sys.stdout))
             print(f'Exception occured on connecting to Azure portal inside azure_services: {e}')
             print(traceback.print_exc(file=sys.stdout))
             
@@ -63,6 +66,8 @@ class azure_ops:
                     sas_url = 'https://' + self.account_name+'.blob.core.windows.net/' + self.container_name + '/' + blob_i.name + '?' + sas_i
             return sas_url
         except Exception as e:
+            self.logger.error(f'Exception occured while generating sas token in Azure portal inside azure_services: {e}')
+            self.logger.error(traceback.print_exc(file=sys.stdout))
             print(f'Exception occured while generating sas token in Azure portal inside azure_services: {e}')
             print(traceback.print_exc(file=sys.stdout))
     
@@ -111,6 +116,8 @@ class azure_ops:
             sas_url = self.generate_sas_url(file_name=az_file_name)
             return sas_url
         except Exception as e:
+            self.logger.error(f'Exception occured while uploading file to Azure portal: {e}')
+            self.logger.error(traceback.print_exc(file=sys.stdout))
             print(f'Exception occured while uploading file to Azure portal: {e}')
             print(traceback.print_exc(file=sys.stdout))
     
@@ -123,6 +130,8 @@ class azure_ops:
             with open(download_file_path, "wb") as download_file:
                 download_file.write(blob_client.download_blob().readall())
         except Exception as e:
+            self.logger.error(f'Exception occured while downloading file from Azure portal: {e}')
+            self.logger.error(traceback.print_exc(file=sys.stdout))
             print(f'Exception occured while downloading file from Azure portal: {e}')
             print(traceback.print_exc(file=sys.stdout))
             
@@ -130,8 +139,11 @@ class azure_ops:
     def azure_close_conn(self):
         try:
             self.blob_service_client.close()
+            self.logger.info("Azure connection closed")
             print("Connection Closed")
         except Exception as e:
+            self.logger.error(f'Exception occured while closing azure services: {e}')
+            self.logger.error(traceback.print_exc(file=sys.stdout))
             print(f'Exception occured while closing azure services: {e}')
             print(traceback.print_exc(file=sys.stdout))
         

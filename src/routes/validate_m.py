@@ -2,8 +2,8 @@ from fastapi import FastAPI, UploadFile ,File, HTTPException, status, APIRouter,
 from fastapi.responses import FileResponse
 
 from utils.data_models import *
-from services.metrics_gpt import Evaluator_gpt
-from services.metrics_flant5 import Evaluator_flanT5
+from services.metrics_gemini import Evaluator_gemini
+#from services.metrics_flant5 import Evaluator_flanT5
 from services.azure_services import *
 from utils.function import *
 from utils.constants import *
@@ -15,15 +15,15 @@ import json
 import shutil
 
 
-router = APIRouter(prefix='/val/metrics',tags=['metrics']) 
+router = APIRouter(prefix='/val_m/metrics_m',tags=['metrics_m']) 
 logger = Initialize_logger()
 
-evaluator_gpt = Evaluator_gpt()
-evaluator_flant5 = Evaluator_flanT5()
+evaluator_gemini = Evaluator_gemini()
+#evaluator_flant5 = Evaluator_flanT5()
 
 
-@router.post("/upload_csv_gpt")
-async def upload_csv_gpt(file: UploadFile= File(...)):
+@router.post("/upload_csv_gemini")
+async def upload_csv_gemini(file: UploadFile= File(...)):
 
     """
     Endpoint to receive an input file and generate metrics.
@@ -79,26 +79,26 @@ async def upload_csv_gpt(file: UploadFile= File(...)):
                     reference_answer= row[2]
                     logger.info(f"Row {i},inserted")
 
-                    gen_answer_gpt = evaluator_gpt.generate_answer(context, question)
-                    print(f"Answer: {gen_answer_gpt}")
-                    result_gpt= evaluator_gpt.evaluate_all(gen_answer_gpt, reference_answer)
+                    gen_answer_gemini = evaluator_gemini.generate_answer(context, question)
+                    print(f"Answer: {gen_answer_gemini}")
+                    result_gpt= evaluator_gemini.evaluate_all(gen_answer_gemini, reference_answer)
                     
                     list_of_metrics.append(result_gpt)
                     list_of_metrics_result.append({"result "+str(i+1):result_gpt})
                                       
                     
-                metrics= evaluator_gpt.evaluate_average(list_of_metrics)
+                metrics= evaluator_gemini.evaluate_average(list_of_metrics)
                 list_of_metrics_result.append(metrics)
-                logger.info("Metrics generated for GPT model")
+                logger.info("Metrics generated for Gemini model")
 
                 # Define the path for the resulting JSON file
                 json_file_path = os.path.join(TMP_SAVE_UPLOAD_FILE_PATH, f"{file.filename.split('.')[0]}_metric_result.json")
                 
-                # Save the resultant metrics to the specified path
+                # Save the resulting metrics to the specified path
                 with open(json_file_path, 'w') as json_file:
                     json.dump(list_of_metrics_result, json_file,indent=3 )
                     
-                logger.info("JSON file created for GPT model")
+                logger.info("JSON file created for Gemini model")
                 print("json file created")
 
                 sas_url = az.upload_file(local_file_path=json_file_path, file_name=f"{file.filename.split('.')[0]}_metrics.json")
@@ -130,7 +130,7 @@ async def upload_csv_gpt(file: UploadFile= File(...)):
 
     
 
-
+'''
 
 @router.post("/upload_csv_flant5")
 async def upload_csv_flant5(file: UploadFile= File(...)):
@@ -203,7 +203,7 @@ async def upload_csv_flant5(file: UploadFile= File(...)):
                 # Define the path for the resulting JSON file
                 json_file_path = os.path.join(TMP_SAVE_UPLOAD_FILE_PATH, f"{file.filename.split('.')[0]}_metric_result.json")
                 
-                # Save the resultant metrics to the specified path
+                # Save the resulting metrics to the specified path
                 with open(json_file_path, 'w') as json_file:
                     json.dump(list_of_metrics_result, json_file,indent=3 )
                     
@@ -236,13 +236,13 @@ async def upload_csv_flant5(file: UploadFile= File(...)):
         logger.error(f"Request not processed successfully. Details:{e}")
         raise HTTPException(status_code=500, detail=str(e))
         print(e)
+'''
 
 
 
 
-
-@router.post('/model_validation_gpt')
-def model_validation_gpt(payload: model_validation_input_shcema_text):
+@router.post('/model_validation_gemini')
+def model_validation_gemini(payload: model_validation_input_shcema_text):
     try:
         
         payload = payload.dict()
@@ -251,19 +251,19 @@ def model_validation_gpt(payload: model_validation_input_shcema_text):
             logger.error("Payload not found")
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="payload not found")
 
-        gen_answer_gpt = evaluator_gpt.generate_answer(payload['context'], payload['question'])
+        gen_answer_gemini = evaluator_gemini.generate_answer(payload['context'], payload['question'])
         #print(f"Answer: {gen_answer_gpt}")
 
-        if not gen_answer_gpt:
+        if not gen_answer_gemini:
             logger.error("Generated response not found")
             raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Generated response not found")
-        logger.info(f"Answer: {gen_answer_gpt}")
+        logger.info(f"Answer: {gen_answer_gemini}")
 
-        metrics_gpt = evaluator_gpt.evaluate_all( gen_answer_gpt, payload['reference_answer'])
-        logger.info("Metrics computed successfully for GPT")
+        metrics_gemini = evaluator_gemini.evaluate_all( gen_answer_gemini, payload['reference_answer'])
+        logger.info("Metrics computed successfully for Gemini")
         return {
             "message": "successful",
-            "metrics": metrics_gpt
+            "metrics": metrics_gemini
         }
     except Exception as e:
         logger.error(f"Exception in generated response:{e}")
@@ -271,7 +271,7 @@ def model_validation_gpt(payload: model_validation_input_shcema_text):
 
 
 
-
+'''
 @router.post('/model_validation_flant5')
 def model_validation_flant5(payload: model_validation_input_shcema_text):
     try:
@@ -305,7 +305,7 @@ def model_validation_flant5(payload: model_validation_input_shcema_text):
         logger.error(f"Exception in generated response:{e}")
         print("traceback.format_exc()")
        
-        
+'''      
     
 
         
